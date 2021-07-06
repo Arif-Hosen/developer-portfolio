@@ -8,8 +8,9 @@ h1{
 .arif-color{
     color:orangered;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -19,7 +20,7 @@ section{
 }
 .half-width img{
     width: 100%;
-    margin-top: -90px;
+    margin-top: -20px;
     
 }
 
@@ -37,3 +38,9 @@ section{
     background-repeat: no-repeat;
     
 }
+.dream-big{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
