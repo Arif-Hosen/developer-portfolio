@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .arif-color{
     color:orangered;
 }
@@ -39,8 +42,38 @@ h1{
     
 }
 .dream-big{
-    background-image: url(images/exp-bg.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 7%;
+}
+.experience-item{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 10px 15px 30px  slategrey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+}
+#Full-stack-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, pink);
+    border-image-slice: 1;
+    
+}
+#baby-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    color:maroon;
+}
